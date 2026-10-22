@@ -13,7 +13,7 @@
   <a href="mailto:karlatovar012@gmail.com">
     <img src="https://img.shields.io/badge/Email-Let's%20talk-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://github.com/KarlaTovar-06E">
+  <a href="https://github.com/KarlaTovar-06">
     <img src="https://img.shields.io/badge/GitHub-Follow-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
@@ -111,10 +111,10 @@ const karla = {
 
 <div align="center">
 
-<!-- Replace KarlaTovar-06E in the image URLs below. These cards are provided by a third-party service. -->
+<!-- Replace KarlaTovar-06 in the image URLs below. These cards are provided by a third-party service. -->
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06E&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=6D63F5&icon_color=6D63F5&text_color=6B7280" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarlaTovar-06E&layout=compact&hide_border=true&theme=transparent&title_color=6D63F5&text_color=6B7280" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=6D63F5&icon_color=6D63F5&text_color=6B7280" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarlaTovar-06&layout=compact&hide_border=true&theme=transparent&title_color=6D63F5&text_color=6B7280" alt="Top languages" />
 
 <br/>
 
@@ -132,7 +132,7 @@ If you're working on an interesting product, building a team, or exploring ideas
 &nbsp; · &nbsp;
 <a href="mailto:karlatovar012@gmail.com"><strong>Email me</strong></a>
 &nbsp; · &nbsp;
-<a href="https://github.com/KarlaTovar-06E"><strong>GitHub</strong></a>
+<a href="https://github.com/KarlaTovar-06"><strong>GitHub</strong></a>
 
 <br/>
 
