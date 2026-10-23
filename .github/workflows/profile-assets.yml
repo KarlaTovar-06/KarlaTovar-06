@@ -20,27 +20,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Snake
+      - name: Generate snake (light and dark)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#A22887&color_dots=#EBEDF0,#9BA1A6,#6B7075,#33373B,#0D1117
-            dist/snake-dark.svg?palette=github-dark&color_snake=#D73961&color_dots=#161B22,#3B4048,#5B626B,#808992,#AAB3BD
+            dist/snake.svg?palette=github
+            dist/snake-dark.svg?palette=github-dark
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Terminal
+      - name: Install terminal dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade github-readme-terminal
+
+      - name: Generate dark terminal
+        env:
+          GIFOS_GENERAL_USER_NAME: karla
+          GIFOS_GENERAL_COLOR_SCHEME: catppuccin-mocha
+          GIFOS_CATPPUCCIN-MOCHA_DEFAULT_COLORS_BG: black
+        run: |
+          python scripts/terminal.py
+          mv output.gif dist/terminal-dark.gif
+
+      - name: Generate light terminal
         env:
           GIFOS_GENERAL_USER_NAME: karla
           GIFOS_GENERAL_COLOR_SCHEME: catppuccin-latte
+          GIFOS_CATPPUCCIN-LATTE_DEFAULT_COLORS_BG: white
         run: |
-          sudo apt-get update && sudo apt-get install -y ffmpeg
-          python -m pip install --upgrade github-readme-terminal
           python scripts/terminal.py
-          mv output.gif dist/terminal.gif
+          mv output.gif dist/terminal-light.gif
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
