@@ -17,21 +17,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Prepare output directory
-        run: mkdir -p dist
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Generate snake (light and dark)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?palette=github-light&color_snake=%23A22887
-            dist/snake-dark.svg?palette=github-dark&color_snake=%23E56CC4
+            dist/snake.svg?palette=github
+            dist/snake-dark.svg?palette=github-dark
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -41,41 +41,24 @@ jobs:
           sudo apt-get install -y ffmpeg
           python -m pip install --upgrade github-readme-terminal
 
-      - name: Generate dark terminal
-        env:
-          GIFOS_GENERAL_USER_NAME: karla
-          GIFOS_GENERAL_COLOR_SCHEME: catppuccin-mocha
-          GIFOS_CATPPUCCIN-MOCHA_DEFAULT_COLORS_BG: "#0D1117"
-          GIFOS_CATPPUCCIN-MOCHA_DEFAULT_COLORS_FG: "#C9D1D9"
-        run: |
-          rm -rf frames output.gif
-          python scripts/terminal.py
-          test -f output.gif
-          mv output.gif dist/terminal-dark.gif
-          rm -rf frames
-
       - name: Generate light terminal
         env:
           GIFOS_GENERAL_USER_NAME: karla
           GIFOS_GENERAL_COLOR_SCHEME: catppuccin-latte
-          GIFOS_CATPPUCCIN-LATTE_DEFAULT_COLORS_BG: "#FFFFFF"
-          GIFOS_CATPPUCCIN-LATTE_DEFAULT_COLORS_FG: "#24273A"
         run: |
-          rm -rf frames output.gif
           python scripts/terminal.py
-          test -f output.gif
-          mv output.gif dist/terminal-light.gif
-          rm -rf frames
+          mkdir -p dist
+          cp output.gif dist/terminal.gif
 
-      - name: Verify generated assets
+      - name: Generate dark terminal
+        env:
+          GIFOS_GENERAL_USER_NAME: karla
+          GIFOS_GENERAL_COLOR_SCHEME: catppuccin-mocha
         run: |
-          ls -lh dist
-          test -s dist/snake.svg
-          test -s dist/snake-dark.svg
-          test -s dist/terminal-light.gif
-          test -s dist/terminal-dark.gif
+          python scripts/terminal.py
+          cp output.gif dist/terminal-dark.gif
 
-      - name: Publish to output branch
+      - name: Publish assets to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
