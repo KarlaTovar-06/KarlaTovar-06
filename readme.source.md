@@ -32,6 +32,13 @@
       #orbAmarillo { animation: driftC 10s ease-in-out infinite; }
       #orbMorado { animation: driftA 12s ease-in-out infinite; }
       #orbVerde { animation: driftB 13s ease-in-out infinite; }
+      @media (prefers-color-scheme: dark) {
+        path[fill="#FFFFFF"] { fill: #0D1117; }
+        [stroke="#E5E7EB"] { stroke: #30363D; }
+        path[fill="#111827"] { fill: #F0F6FC; }
+        path[fill="#A22887"] { fill: #E56CC4; }
+        path[fill="#6B7280"] { fill: #8B949E; }
+      }
     `}</style>
     <ellipse id="orbCyan" cx="660" cy="40" rx="190" ry="120" fill="url(#glowCyan)" />
     <ellipse id="orbRosa" cx="540" cy="190" rx="170" ry="100" fill="url(#glowRosa)" />
@@ -48,18 +55,44 @@
 ```
 
 ```aura width=108 height=32 link="https://www.createbykarla.com" inline align=center
-<SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(17,24,39)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='9'/><path d='M3 12h18'/><path d='M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18'/></svg>" text="Portfolio" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#E5E7EB" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#6FBF00' }, { offset: '25%', color: '#f59e0b' }, { offset: '50%', color: '#D73961' }, { offset: '75%', color: '#A22887' }, { offset: '100%', color: '#00C2AB' }]} />
+<div style={{ display: 'flex', width: '100%', height: '100%' }}>
+  <style>{`
+    @media (prefers-color-scheme: dark) {
+      path[fill="#FFFFFF"] { fill: #161B22; }
+      path[fill="#111827"] { fill: #F0F6FC; }
+    }
+  `}</style>
+  <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162,40,135)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='9'/><path d='M3 12h18'/><path d='M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18'/></svg>" text="Portfolio" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#A22887" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#A22887' }, { offset: '100%', color: '#A22887' }]} />
+</div>
 ```
 ```aura width=108 height=32 link="mailto:karlatovar012@gmail.com" inline align=center
-<SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(17,24,39)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='5' width='18' height='14' rx='2'/><path d='M3 7l9 6l9-6'/></svg>" text="Email" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#E5E7EB" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#00C2AB' }, { offset: '25%', color: '#6FBF00' }, { offset: '50%', color: '#f59e0b' }, { offset: '75%', color: '#D73961' }, { offset: '100%', color: '#A22887' }]} />
+<div style={{ display: 'flex', width: '100%', height: '100%' }}>
+  <style>{`
+    @media (prefers-color-scheme: dark) {
+      path[fill="#FFFFFF"] { fill: #161B22; }
+      path[fill="#111827"] { fill: #F0F6FC; }
+    }
+  `}</style>
+  <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(0,194,171)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='5' width='18' height='14' rx='2'/><path d='M3 7l9 6l9-6'/></svg>" text="Email" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#00C2AB" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#00C2AB' }, { offset: '100%', color: '#00C2AB' }]} />
+</div>
 ```
 ```aura width=108 height=32 link="https://github.com/KarlaTovar-06" inline align=center
-<SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(17,24,39)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M8 8l-5 4l5 4'/><path d='M16 8l5 4l-5 4'/></svg>" text="GitHub" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#E5E7EB" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#A22887' }, { offset: '25%', color: '#00C2AB' }, { offset: '50%', color: '#6FBF00' }, { offset: '75%', color: '#f59e0b' }, { offset: '100%', color: '#D73961' }]} />
+<div style={{ display: 'flex', width: '100%', height: '100%' }}>
+  <style>{`
+    @media (prefers-color-scheme: dark) {
+      path[fill="#FFFFFF"] { fill: #161B22; }
+      path[fill="#111827"] { fill: #F0F6FC; }
+    }
+  `}</style>
+  <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(215,57,97)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M8 8l-5 4l5 4'/><path d='M16 8l5 4l-5 4'/></svg>" text="GitHub" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#D73961" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#D73961' }, { offset: '100%', color: '#D73961' }]} />
+</div>
 ```
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal.gif" alt="Terminal" width="760" />
 </p>
+
+<h3 align="center">Stack</h3>
 
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/react"><img src="https://iconic-api.onrender.com/light/react" width="48" alt="React"></picture>
@@ -77,6 +110,18 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/git"><img src="https://iconic-api.onrender.com/light/git" width="48" alt="Git"></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/figma"><img src="https://iconic-api.onrender.com/light/figma" width="48" alt="Figma"></picture>
 </p>
+
+<h3 align="center">GitHub</h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=E56CC4&icon_color=00C2AB&text_color=C9D1D9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=A22887&icon_color=00C2AB&text_color=374151" />
+    <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=A22887&icon_color=00C2AB&text_color=374151" />
+  </picture>
+</p>
+
+<h3 align="center">Activity</h3>
 
 <p align="center">
   <picture>
