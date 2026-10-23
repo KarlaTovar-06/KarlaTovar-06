@@ -40,12 +40,7 @@ const karla = {
 };
 ```
 
-- Building accessible, maintainable, and responsive web experiences.
-- I enjoy connecting **technical decisions, product goals, and user needs**.
-- Co-founded **Kachi**, an educational technology project focused on Indigenous Mexican languages, helping coordinate a multidisciplinary team of 9+ contributors.
-- Always learning, experimenting, and making complex things feel simple.
-
-## ◌ My tech stack
+## ✦ My tech stack
 
 <div align="start">
 
@@ -73,35 +68,6 @@ const karla = {
   - **Cross-functional work:** planning, coordination, communicating progress, and helping teams move from ideas to prototypes.
 </details>
 
-## ✧ Featured work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌱 Kachi</h3>
-      <p>Educational technology project using an interactive game to support the learning and preservation of Indigenous Mexican languages.</p>
-      <p><strong>Focus:</strong> Product planning · Team coordination · Technical development</p>
-      <p><em>Co-founded project; prototype/MVP presented to UNAM's business incubator.</em></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎧 Spectra</h3>
-      <p>A musical expert system using a structured JSON knowledge base and Spotify API integration to generate music-related recommendations.</p>
-      <p><strong>Focus:</strong> Python · APIs · Data modeling</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📱 RubiVault / iOS work</h3>
-      <p>Native iOS development with SwiftUI, API integration, declarative navigation, and MVVM-oriented organization.</p>
-      <p><strong>Focus:</strong> SwiftUI · URLSession · async/await</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🪄 More projects</h3>
-      <p>Explore my portfolio for more web and mobile work, experiments, and things I'm learning.</p>
-      <p><a href="https://www.createbykarla.com"><strong>Visit createbykarla.com →</strong></a></p>
-    </td>
-  </tr>
-</table>
 
 ## ⌘ GitHub at a glance
 
