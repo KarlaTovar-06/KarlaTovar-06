@@ -20,13 +20,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prepare output directory
+        run: mkdir -p dist
+
       - name: Generate snake (light and dark)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?palette=github
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake.svg?palette=github-light&color_snake=%23A22887
+            dist/snake-dark.svg?palette=github-dark&color_snake=%23E56CC4
 
       - uses: actions/setup-python@v5
         with:
@@ -42,19 +45,35 @@ jobs:
         env:
           GIFOS_GENERAL_USER_NAME: karla
           GIFOS_GENERAL_COLOR_SCHEME: catppuccin-mocha
-          GIFOS_CATPPUCCIN-MOCHA_DEFAULT_COLORS_BG: black
+          GIFOS_CATPPUCCIN-MOCHA_DEFAULT_COLORS_BG: "#0D1117"
+          GIFOS_CATPPUCCIN-MOCHA_DEFAULT_COLORS_FG: "#C9D1D9"
         run: |
+          rm -rf frames output.gif
           python scripts/terminal.py
+          test -f output.gif
           mv output.gif dist/terminal-dark.gif
+          rm -rf frames
 
       - name: Generate light terminal
         env:
           GIFOS_GENERAL_USER_NAME: karla
           GIFOS_GENERAL_COLOR_SCHEME: catppuccin-latte
-          GIFOS_CATPPUCCIN-LATTE_DEFAULT_COLORS_BG: white
+          GIFOS_CATPPUCCIN-LATTE_DEFAULT_COLORS_BG: "#FFFFFF"
+          GIFOS_CATPPUCCIN-LATTE_DEFAULT_COLORS_FG: "#24273A"
         run: |
+          rm -rf frames output.gif
           python scripts/terminal.py
+          test -f output.gif
           mv output.gif dist/terminal-light.gif
+          rm -rf frames
+
+      - name: Verify generated assets
+        run: |
+          ls -lh dist
+          test -s dist/snake.svg
+          test -s dist/snake-dark.svg
+          test -s dist/terminal-light.gif
+          test -s dist/terminal-dark.gif
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
