@@ -13,26 +13,23 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/react"><img src="https://iconic-api.onrender.com/light/react" width="48" alt="React"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/nextjs"><img src="https://iconic-api.onrender.com/light/nextjs" width="48" alt="Next.js"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/typescript"><img src="https://iconic-api.onrender.com/light/typescript" width="48" alt="TypeScript"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/js"><img src="https://iconic-api.onrender.com/light/js" width="48" alt="JavaScript"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/html"><img src="https://iconic-api.onrender.com/light/html" width="48" alt="HTML"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/css"><img src="https://iconic-api.onrender.com/light/css" width="48" alt="CSS"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/tailwind"><img src="https://iconic-api.onrender.com/light/tailwind" width="48" alt="Tailwind"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/python"><img src="https://iconic-api.onrender.com/light/python" width="48" alt="Python"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/php"><img src="https://iconic-api.onrender.com/light/php" width="48" alt="PHP"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/laravel"><img src="https://iconic-api.onrender.com/light/laravel" width="48" alt="Laravel"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/swift"><img src="https://iconic-api.onrender.com/light/swift" width="48" alt="Swift"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/unity"><img src="https://iconic-api.onrender.com/light/unity" width="48" alt="Unity"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/git"><img src="https://iconic-api.onrender.com/light/git" width="48" alt="Git"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/figma"><img src="https://iconic-api.onrender.com/light/figma" width="48" alt="Figma"></picture>
+  <img src="https://iconic-api.onrender.com/light/react#gh-light-mode-only" width="48" alt="React"><img src="https://iconic-api.onrender.com/dark/react#gh-dark-mode-only" width="48" alt="React">
+  <img src="https://iconic-api.onrender.com/light/nextjs#gh-light-mode-only" width="48" alt="Next.js"><img src="https://iconic-api.onrender.com/dark/nextjs#gh-dark-mode-only" width="48" alt="Next.js">
+  <img src="https://iconic-api.onrender.com/light/typescript#gh-light-mode-only" width="48" alt="TypeScript"><img src="https://iconic-api.onrender.com/dark/typescript#gh-dark-mode-only" width="48" alt="TypeScript">
+  <img src="https://iconic-api.onrender.com/light/js#gh-light-mode-only" width="48" alt="JavaScript"><img src="https://iconic-api.onrender.com/dark/js#gh-dark-mode-only" width="48" alt="JavaScript">
+  <img src="https://iconic-api.onrender.com/light/html#gh-light-mode-only" width="48" alt="HTML"><img src="https://iconic-api.onrender.com/dark/html#gh-dark-mode-only" width="48" alt="HTML">
+  <img src="https://iconic-api.onrender.com/light/css#gh-light-mode-only" width="48" alt="CSS"><img src="https://iconic-api.onrender.com/dark/css#gh-dark-mode-only" width="48" alt="CSS">
+  <img src="https://iconic-api.onrender.com/light/tailwind#gh-light-mode-only" width="48" alt="Tailwind"><img src="https://iconic-api.onrender.com/dark/tailwind#gh-dark-mode-only" width="48" alt="Tailwind">
+  <img src="https://iconic-api.onrender.com/light/python#gh-light-mode-only" width="48" alt="Python"><img src="https://iconic-api.onrender.com/dark/python#gh-dark-mode-only" width="48" alt="Python">
+  <img src="https://iconic-api.onrender.com/light/php#gh-light-mode-only" width="48" alt="PHP"><img src="https://iconic-api.onrender.com/dark/php#gh-dark-mode-only" width="48" alt="PHP">
+  <img src="https://iconic-api.onrender.com/light/laravel#gh-light-mode-only" width="48" alt="Laravel"><img src="https://iconic-api.onrender.com/dark/laravel#gh-dark-mode-only" width="48" alt="Laravel">
+  <img src="https://iconic-api.onrender.com/light/swift#gh-light-mode-only" width="48" alt="Swift"><img src="https://iconic-api.onrender.com/dark/swift#gh-dark-mode-only" width="48" alt="Swift">
+  <img src="https://iconic-api.onrender.com/light/unity#gh-light-mode-only" width="48" alt="Unity"><img src="https://iconic-api.onrender.com/dark/unity#gh-dark-mode-only" width="48" alt="Unity">
+  <img src="https://iconic-api.onrender.com/light/git#gh-light-mode-only" width="48" alt="Git"><img src="https://iconic-api.onrender.com/dark/git#gh-dark-mode-only" width="48" alt="Git">
+  <img src="https://iconic-api.onrender.com/light/figma#gh-light-mode-only" width="48" alt="Figma"><img src="https://iconic-api.onrender.com/dark/figma#gh-dark-mode-only" width="48" alt="Figma">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake.svg#gh-light-mode-only" width="100%" alt="Contribution snake (light mode)">
+  <img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake-dark.svg#gh-dark-mode-only" width="100%" alt="Contribution snake (dark mode)">
 </p>
