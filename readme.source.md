@@ -53,7 +53,7 @@
   </div>
 </div>
 ```
-
+ 
 ```aura width=116 height=32 link="https://www.createbykarla.com" inline
 <div style={{ display: 'flex', width: '100%', height: '100%', paddingRight: 8 }}>
   <style>{`
