@@ -4,7 +4,7 @@
 
 ### About
 
-Software engineer focused on frontend, with a product mindset. I build thoughtful digital experiences with React, Next.js and TypeScript, and enjoy turning technical ideas into real products.
+Software developer focused on frontend, with a product mindset. I build thoughtful digital experiences with React, Next.js and TypeScript, and enjoy turning technical ideas into real products.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal-dark.gif">
