@@ -92,11 +92,7 @@
 
 Software engineer focused on frontend, with a product mindset. I build thoughtful digital experiences with React, Next.js and TypeScript, and enjoy turning technical ideas into real products.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal-light.gif">
-  <img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal-light.gif" alt="Terminal" width="760">
-</picture>
+<img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal.gif" alt="Terminal" width="760" />
 
 ### Stack
 
