@@ -1,0 +1,51 @@
+name: Profile assets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/terminal.py
+      - .github/workflows/profile-assets.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Terminal
+        env:
+          GIFOS_GENERAL_USER_NAME: karla
+          GIFOS_GENERAL_COLOR_SCHEME: catppuccin-mocha
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade github-readme-terminal
+          python scripts/terminal.py
+          mv output.gif dist/terminal.gif
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
