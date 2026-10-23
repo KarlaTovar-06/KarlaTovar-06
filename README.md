@@ -1,10 +1,10 @@
 
 
-<div align="center">
+<div align="start">
 
 # Hi, I'm Karla! 
 
-### Software Engineer · Frontend Developer · Product-minded Builder
+### Software Developer · Product-minded Builder
 
 <p>
   <a href="https://www.createbykarla.com">
