@@ -1,4 +1,4 @@
-```aura width=800 height=220
+```aura
 <div style={{ display: 'flex', width: '100%', height: '100%', position: 'relative', backgroundColor: '#0B0B14', borderRadius: 24, overflow: 'hidden', border: '1px solid #1F2037' }}>
   <svg width="800" height="220" viewBox="0 0 800 220" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
@@ -7,7 +7,7 @@
         <stop offset="100%" stopColor="#6D63F5" stopOpacity="0" />
       </radialGradient>
       <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="#B794F6" stopOpacity="0.35" />
+        <stop offset="0%" stopColor="#B794F6" stopOpacity="0.45" />
         <stop offset="100%" stopColor="#B794F6" stopOpacity="0" />
       </radialGradient>
     </defs>
@@ -28,13 +28,15 @@
 </div>
 ```
 
-```aura width=150 height=44 link="https://www.createbykarla.com" inline align=center
+```aura
 <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='9'/><path d='M3 12h18'/><path d='M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18'/></svg>" text="Portfolio" backgroundColor="#111827" width={150} height={44} />
 ```
-```aura width=150 height=44 link="mailto:karlatovar012@gmail.com" inline align=center
+
+```aura
 <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='5' width='18' height='14' rx='2'/><path d='M3 7l9 6l9-6'/></svg>" text="Email" backgroundColor="#111827" width={150} height={44} />
 ```
-```aura width=150 height=44 link="https://github.com/KarlaTovar-06" inline align=center
+
+```aura
 <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M8 8l-5 4l5 4'/><path d='M16 8l5 4l-5 4'/></svg>" text="GitHub" backgroundColor="#111827" width={150} height={44} />
 ```
 
@@ -42,7 +44,7 @@
   <img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal.gif" alt="Terminal" width="760" />
 </p>
 
-```aura width=800 height=190
+```aura
 <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', backgroundColor: '#0B0B14', borderRadius: 24, border: '1px solid #1F2037', padding: '28px 40px', justifyContent: 'space-between' }}>
   <div style={{ display: 'flex', alignItems: 'center' }}>
     <div style={{ display: 'flex', width: 140, flexShrink: 0, fontSize: 14, color: '#6B7280', letterSpacing: 1 }}>FRONTEND</div>
