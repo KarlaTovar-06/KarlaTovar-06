@@ -54,8 +54,8 @@
 </div>
 ```
 
-```aura width=108 height=32 link="https://www.createbykarla.com" inline align=center
-<div style={{ display: 'flex', width: '100%', height: '100%' }}>
+```aura width=116 height=32 link="https://www.createbykarla.com" inline
+<div style={{ display: 'flex', width: '100%', height: '100%', paddingRight: 8 }}>
   <style>{`
     @media (prefers-color-scheme: dark) {
       path[fill="#FFFFFF"] { fill: #161B22; }
@@ -65,8 +65,8 @@
   <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162,40,135)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='9'/><path d='M3 12h18'/><path d='M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18'/></svg>" text="Portfolio" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#A22887" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#A22887' }, { offset: '100%', color: '#A22887' }]} />
 </div>
 ```
-```aura width=108 height=32 link="mailto:karlatovar012@gmail.com" inline align=center
-<div style={{ display: 'flex', width: '100%', height: '100%' }}>
+```aura width=116 height=32 link="mailto:karlatovar012@gmail.com" inline
+<div style={{ display: 'flex', width: '100%', height: '100%', paddingRight: 8 }}>
   <style>{`
     @media (prefers-color-scheme: dark) {
       path[fill="#FFFFFF"] { fill: #161B22; }
@@ -76,8 +76,8 @@
   <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(0,194,171)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='5' width='18' height='14' rx='2'/><path d='M3 7l9 6l9-6'/></svg>" text="Email" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#00C2AB" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#00C2AB' }, { offset: '100%', color: '#00C2AB' }]} />
 </div>
 ```
-```aura width=108 height=32 link="https://github.com/KarlaTovar-06" inline align=center
-<div style={{ display: 'flex', width: '100%', height: '100%' }}>
+```aura width=116 height=32 link="https://github.com/KarlaTovar-06" inline
+<div style={{ display: 'flex', width: '100%', height: '100%', paddingRight: 8 }}>
   <style>{`
     @media (prefers-color-scheme: dark) {
       path[fill="#FFFFFF"] { fill: #161B22; }
@@ -88,45 +88,71 @@
 </div>
 ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal.gif" alt="Terminal" width="760" />
-</p>
+### About
 
-<h3 align="center">Stack</h3>
+Software engineer focused on frontend, with a product mindset. I build thoughtful digital experiences with React, Next.js and TypeScript, and enjoy turning technical ideas into real products.
 
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/react"><img src="https://iconic-api.onrender.com/light/react" width="48" alt="React"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/nextjs"><img src="https://iconic-api.onrender.com/light/nextjs" width="48" alt="Next.js"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/typescript"><img src="https://iconic-api.onrender.com/light/typescript" width="48" alt="TypeScript"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/js"><img src="https://iconic-api.onrender.com/light/js" width="48" alt="JavaScript"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/html"><img src="https://iconic-api.onrender.com/light/html" width="48" alt="HTML"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/css"><img src="https://iconic-api.onrender.com/light/css" width="48" alt="CSS"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/tailwind"><img src="https://iconic-api.onrender.com/light/tailwind" width="48" alt="Tailwind"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/python"><img src="https://iconic-api.onrender.com/light/python" width="48" alt="Python"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/php"><img src="https://iconic-api.onrender.com/light/php" width="48" alt="PHP"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/laravel"><img src="https://iconic-api.onrender.com/light/laravel" width="48" alt="Laravel"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/swift"><img src="https://iconic-api.onrender.com/light/swift" width="48" alt="Swift"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/unity"><img src="https://iconic-api.onrender.com/light/unity" width="48" alt="Unity"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/git"><img src="https://iconic-api.onrender.com/light/git" width="48" alt="Git"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/figma"><img src="https://iconic-api.onrender.com/light/figma" width="48" alt="Figma"></picture>
-</p>
+<img src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/terminal.gif" alt="Terminal" width="760" />
 
-<h3 align="center">GitHub</h3>
+### Stack
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=E56CC4&icon_color=00C2AB&text_color=C9D1D9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=A22887&icon_color=00C2AB&text_color=374151" />
-    <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=A22887&icon_color=00C2AB&text_color=374151" />
-  </picture>
-</p>
+```aura width=120 height=26
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', backgroundColor: '#6FBF00', borderRadius: 13, color: '#111827', fontSize: 13, fontWeight: 700 }}>Frontend</div>
+```
 
-<h3 align="center">Activity</h3>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/react"><img src="https://iconic-api.onrender.com/light/react" width="40" alt="React"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/nextjs"><img src="https://iconic-api.onrender.com/light/nextjs" width="40" alt="Next.js"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/typescript"><img src="https://iconic-api.onrender.com/light/typescript" width="40" alt="TypeScript"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/js"><img src="https://iconic-api.onrender.com/light/js" width="40" alt="JavaScript"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/html"><img src="https://iconic-api.onrender.com/light/html" width="40" alt="HTML"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/css"><img src="https://iconic-api.onrender.com/light/css" width="40" alt="CSS"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/tailwind"><img src="https://iconic-api.onrender.com/light/tailwind" width="40" alt="Tailwind"></picture>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake.svg" />
-  </picture>
-</p>
+```aura width=120 height=26
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', backgroundColor: '#00C2AB', borderRadius: 13, color: '#111827', fontSize: 13, fontWeight: 700 }}>Backend</div>
+```
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/python"><img src="https://iconic-api.onrender.com/light/python" width="40" alt="Python"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/php"><img src="https://iconic-api.onrender.com/light/php" width="40" alt="PHP"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/laravel"><img src="https://iconic-api.onrender.com/light/laravel" width="40" alt="Laravel"></picture>
+
+```aura width=120 height=26
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', backgroundColor: '#A22887', borderRadius: 13, color: '#FFFFFF', fontSize: 13, fontWeight: 700 }}>Mobile & Game</div>
+```
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/swift"><img src="https://iconic-api.onrender.com/light/swift" width="40" alt="Swift"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/unity"><img src="https://iconic-api.onrender.com/light/unity" width="40" alt="Unity"></picture>
+
+```aura width=120 height=26
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', backgroundColor: '#f59e0b', borderRadius: 13, color: '#111827', fontSize: 13, fontWeight: 700 }}>Tools</div>
+```
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/git"><img src="https://iconic-api.onrender.com/light/git" width="40" alt="Git"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://iconic-api.onrender.com/dark/figma"><img src="https://iconic-api.onrender.com/light/figma" width="40" alt="Figma"></picture>
+
+### GitHub
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=E56CC4&icon_color=00C2AB&text_color=C9D1D9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=A22887&icon_color=00C2AB&text_color=374151" />
+  <img height="165" alt="General stats" src="https://github-readme-stats.vercel.app/api?username=KarlaTovar-06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=A22887&icon_color=00C2AB&text_color=374151" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=KarlaTovar-06&layout=compact&hide_border=true&theme=transparent&title_color=E56CC4&text_color=C9D1D9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=KarlaTovar-06&layout=compact&hide_border=true&theme=transparent&title_color=A22887&text_color=374151" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarlaTovar-06&layout=compact&hide_border=true&theme=transparent&title_color=A22887&text_color=374151" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=KarlaTovar-06&hide_border=true&theme=transparent&ring=E56CC4&fire=D73961&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=E56CC4&sideLabels=8B949E&dates=8B949E&stroke=30363D" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=KarlaTovar-06&hide_border=true&theme=transparent&ring=A22887&fire=D73961&currStreakNum=111827&sideNums=111827&currStreakLabel=A22887&sideLabels=6B7280&dates=6B7280&stroke=E5E7EB" />
+  <img alt="Streak stats" src="https://streak-stats.demolab.com?user=KarlaTovar-06&hide_border=true&theme=transparent&ring=A22887&fire=D73961&currStreakNum=111827&sideNums=111827&currStreakLabel=A22887&sideLabels=6B7280&dates=6B7280&stroke=E5E7EB" />
+</picture>
+
+### Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/KarlaTovar-06/KarlaTovar-06/output/snake.svg" />
+</picture>
