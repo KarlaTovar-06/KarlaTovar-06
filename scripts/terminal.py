@@ -7,7 +7,7 @@ def main():
     terminal.gen_prompt(1, count=5)
     terminal.gen_typing_text("whoami", 1, contin=True)
     terminal.gen_text(
-        "\x1b[95mKarla Tovar\x1b[0m / software engineer / mexico city",
+        "\x1b[95mKarla Tovar\x1b[0m / software developer / mexico city",
         2,
         count=12,
     )
