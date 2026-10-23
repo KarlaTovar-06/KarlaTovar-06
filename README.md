@@ -1,21 +1,92 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=gradient&customColorList=12,20,24&text=Karla%20Tovar&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20Frontend&descAlignY=60&descSize=16" width="100%" alt="Karla Tovar — Software Engineer, Frontend" />
-
-<p>
-  <a href="https://www.createbykarla.com">
-    <img src="https://img.shields.io/badge/Portfolio-A22887?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:karlatovar012@gmail.com">
-    <img src="https://img.shields.io/badge/Email-00C2AB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/KarlaTovar-06">
-    <img src="https://img.shields.io/badge/GitHub-D73961?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
-
+```aura width=800 height=200
+<div style={{ display: 'flex', width: '100%', height: '100%', position: 'relative', backgroundColor: '#FFFFFF', borderRadius: 24, overflow: 'hidden', border: '1px solid #E5E7EB' }}>
+  <svg width="800" height="200" viewBox="0 0 800 200" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="#00C2AB" stopOpacity="0.38" />
+        <stop offset="100%" stopColor="#00C2AB" stopOpacity="0" />
+      </radialGradient>
+      <radialGradient id="glowRosa" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="#D73961" stopOpacity="0.30" />
+        <stop offset="100%" stopColor="#D73961" stopOpacity="0" />
+      </radialGradient>
+      <radialGradient id="glowAmarillo" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="#f59e0b" stopOpacity="0.32" />
+        <stop offset="100%" stopColor="#f59e0b" stopOpacity="0" />
+      </radialGradient>
+      <radialGradient id="glowMorado" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="#A22887" stopOpacity="0.26" />
+        <stop offset="100%" stopColor="#A22887" stopOpacity="0" />
+      </radialGradient>
+      <radialGradient id="glowVerde" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="#6FBF00" stopOpacity="0.28" />
+        <stop offset="100%" stopColor="#6FBF00" stopOpacity="0" />
+      </radialGradient>
+    </defs>
+    <style>{`
+      @keyframes driftA { 0% { transform: translate(0px, 0px); } 50% { transform: translate(-36px, 16px); } 100% { transform: translate(0px, 0px); } }
+      @keyframes driftB { 0% { transform: translate(0px, 0px); } 50% { transform: translate(28px, -14px); } 100% { transform: translate(0px, 0px); } }
+      @keyframes driftC { 0% { transform: translate(0px, 0px); } 50% { transform: translate(-22px, -18px); } 100% { transform: translate(0px, 0px); } }
+      #orbCyan { animation: driftA 9s ease-in-out infinite; }
+      #orbRosa { animation: driftB 11s ease-in-out infinite; }
+      #orbAmarillo { animation: driftC 10s ease-in-out infinite; }
+      #orbMorado { animation: driftA 12s ease-in-out infinite; }
+      #orbVerde { animation: driftB 13s ease-in-out infinite; }
+      @media (prefers-color-scheme: dark) {
+        path[fill="#FFFFFF"] { fill: #0D1117; }
+        [stroke="#E5E7EB"] { stroke: #30363D; }
+        path[fill="#111827"] { fill: #F0F6FC; }
+        path[fill="#A22887"] { fill: #E56CC4; }
+        path[fill="#6B7280"] { fill: #8B949E; }
+      }
+    `}</style>
+    <ellipse id="orbCyan" cx="660" cy="40" rx="190" ry="120" fill="url(#glowCyan)" />
+    <ellipse id="orbRosa" cx="540" cy="190" rx="170" ry="100" fill="url(#glowRosa)" />
+    <ellipse id="orbAmarillo" cx="770" cy="170" rx="130" ry="90" fill="url(#glowAmarillo)" />
+    <ellipse id="orbMorado" cx="430" cy="20" rx="140" ry="80" fill="url(#glowMorado)" />
+    <ellipse id="orbVerde" cx="700" cy="110" rx="110" ry="70" fill="url(#glowVerde)" />
+  </svg>
+  <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 56px' }}>
+    <div style={{ display: 'flex', fontSize: 56, fontWeight: 700, color: '#111827', letterSpacing: -1.5 }}>Karla Tovar</div>
+    <div style={{ display: 'flex', fontSize: 22, color: '#A22887', marginTop: 8 }}>Software Engineer · Frontend</div>
+    <div style={{ display: 'flex', fontSize: 16, color: '#6B7280', marginTop: 6 }}>Mexico City</div>
+  </div>
 </div>
-
+```
+ 
+```aura width=116 height=32 link="https://www.createbykarla.com" inline
+<div style={{ display: 'flex', width: '100%', height: '100%', paddingRight: 8 }}>
+  <style>{`
+    @media (prefers-color-scheme: dark) {
+      path[fill="#FFFFFF"] { fill: #161B22; }
+      path[fill="#111827"] { fill: #F0F6FC; }
+    }
+  `}</style>
+  <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162,40,135)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='9'/><path d='M3 12h18'/><path d='M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18'/></svg>" text="Portfolio" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#A22887" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#A22887' }, { offset: '100%', color: '#A22887' }]} />
+</div>
+```
+```aura width=116 height=32 link="mailto:karlatovar012@gmail.com" inline
+<div style={{ display: 'flex', width: '100%', height: '100%', paddingRight: 8 }}>
+  <style>{`
+    @media (prefers-color-scheme: dark) {
+      path[fill="#FFFFFF"] { fill: #161B22; }
+      path[fill="#111827"] { fill: #F0F6FC; }
+    }
+  `}</style>
+  <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(0,194,171)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='5' width='18' height='14' rx='2'/><path d='M3 7l9 6l9-6'/></svg>" text="Email" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#00C2AB" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#00C2AB' }, { offset: '100%', color: '#00C2AB' }]} />
+</div>
+```
+```aura width=116 height=32 link="https://github.com/KarlaTovar-06" inline
+<div style={{ display: 'flex', width: '100%', height: '100%', paddingRight: 8 }}>
+  <style>{`
+    @media (prefers-color-scheme: dark) {
+      path[fill="#FFFFFF"] { fill: #161B22; }
+      path[fill="#111827"] { fill: #F0F6FC; }
+    }
+  `}</style>
+  <SocialMediaButton icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(215,57,97)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M8 8l-5 4l5 4'/><path d='M16 8l5 4l-5 4'/></svg>" text="GitHub" backgroundColor="#FFFFFF" textColor="#111827" borderColor="#D73961" fontSize={12} iconSize="14" width={108} height={32} gradientStops={[{ offset: '0%', color: '#D73961' }, { offset: '100%', color: '#D73961' }]} />
+</div>
+```
 About
 Software engineer focused on frontend development and thoughtful product experiences. I build accessible, responsive interfaces with React, Next.js and JavaScript/TypeScript, and enjoy turning complex technical ideas into polished digital products.
 <div align="center">
