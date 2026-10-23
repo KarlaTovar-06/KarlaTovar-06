@@ -23,10 +23,6 @@
   alt="Animated introduction"
 />
 
-<br/>
-
-*I like building interfaces that feel effortless, solving meaningful problems, and bringing people together to turn ideas into products.*
-
 </div>
 
 ---
@@ -40,7 +36,7 @@ const karla = {
   buildingWith: ["React", "Next.js", "TypeScript"],
   alsoExploring: ["Python", "PHP", "Laravel", "SwiftUI", "Unity"],
   beyondCode: ["Product strategy", "Team coordination", "Presentations"],
-  basedIn: "Mexico City 🇲🇽",
+  basedIn: "Mexico City ",
 };
 ```
 
@@ -51,7 +47,7 @@ const karla = {
 
 ## ◌ My tech stack
 
-<div align="center">
+<div align="start">
 
 ### Frontend
 
